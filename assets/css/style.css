@@ -1,10 +1,25 @@
  /********* NAV BAR **************/
- /******************   ABOUT ME PAGE  ******************/
+ 
+ .navbar-custom {
+     padding: 1em 0 1em 0;
+     border-bottom: 2px solid #DA7817;
+     background-color: #22BDD3;
+ }
+ 
+ .bar-list {
+     color: white;
+ }
+ /****************************   ABOUT ME PAGE  *************************/
+ 
+ .about-row-extention {
+     width: 80em;
+ }
  /*about me container background color*/
  
  .homePage-am {
      background-color: #FFF66C;
      margin: 3em 0 0 0;
+     border: 2px solid #AFBD16;
  }
  /*spongebob image*/
  
@@ -22,10 +37,49 @@
  }
  /*<hr> line divider*/
  
- #lineDivider {
+ .am-lineDivider {
      border: 1px solid #22BDD3;
  }
  
  #textAboutMe {
-     font-size: 1.25em;
+     font-size: 1.10em;
+ }
+ 
+ #connect {
+     float: right;
+     margin: 3em 0 0 0;
+ }
+ 
+ .conn-with-me {
+     background-color: #FFF66C;
+     border: 2px solid #AFBD16;
+     color: #DA7817;
+     margin: 3em 0 0 0;
+     width: 500px;
+ }
+ 
+ .cwm-lineDivider {
+     border: 1px solid #22BDD3;
+ }
+ /***************************** FOOTER *********************************/
+ 
+ .footer-custom {
+     background-color: #22BDD3;
+     padding: 1em 0 1em 0;
+     border-top: 2px solid #DA7817;
+ }
+ 
+ .icon-inline {
+     display: inline-block;
+ }
+ 
+ #jobport {
+     font-weight: bold;
+     margin: 0 0 0 1em;
+     color: #DA7817;
+ }
+ 
+ .copyright-text {
+     color: #FFF66C;
+     font-weight: bold;
  }
