@@ -1,19 +1,31 @@
+ /********* NAV BAR **************/
+ /******************   ABOUT ME PAGE  ******************/
+ /*about me container background color*/
+ 
+ .homePage-am {
+     background-color: #FFF66C;
+     margin: 3em 0 0 0;
+ }
+ /*spongebob image*/
+ 
  #thumbsUp {
      width: 200px;
      height: 200px;
      border-radius: 100px;
+     float: left;
+     margin: 2em 2em 2em 2em;
  }
- 
- #body {}
+ /*about me text*/
  
  .me {
      color: #DA7817;
  }
+ /*<hr> line divider*/
  
  #lineDivider {
      border: 1px solid #22BDD3;
  }
  
- .homePage-am {
-     background-color: #FFF66C;
+ #textAboutMe {
+     font-size: 1.25em;
  }
