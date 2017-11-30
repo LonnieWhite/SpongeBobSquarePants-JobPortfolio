@@ -1,9 +1,19 @@
  #thumbsUp {
      width: 200px;
      height: 200px;
-     border-radius: 30px;
+     border-radius: 100px;
  }
  
- #body {
-     background-color: ;
+ #body {}
+ 
+ .me {
+     color: #DA7817;
+ }
+ 
+ #lineDivider {
+     border: 1px solid #22BDD3;
+ }
+ 
+ .homePage-am {
+     background-color: #FFF66C;
  }
