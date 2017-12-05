@@ -37,7 +37,7 @@
       border: 1px solid #22BDD3;
   }
   
-  #textAboutMe {
+  .textAboutMe {
       font-size: 1.10em;
   }
   
@@ -70,6 +70,7 @@
       background-color: #22BDD3;
       padding: 1em 0 1em 0;
       border-top: 2px solid #DA7817;
+      margin-top: 1em;
   }
   
   .icon-inline {
@@ -94,12 +95,23 @@
   }
   /***************************** PORTFOLIO PAGE *********************************/
   
+  .job {
+      margin-top: 2.5em;
+  }
+  
   .portfolio-container {
       width: 960;
-      background-color: white;
+      background-color: #727ADB;
+      border: .75em double #22BDD3;
   }
   
   .cooking {
       width: 300px;
       height: 300px;
+      margin: 2em 0 2em 0;
+      border: 1em groove #DA7817;
+  }
+  
+  .port-folio {
+      color: #FFF66C;
   }
