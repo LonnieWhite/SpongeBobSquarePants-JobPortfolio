@@ -94,6 +94,12 @@
   }
   /***************************** PORTFOLIO PAGE *********************************/
   
-  .portfolio-row-extention {
-      width:
+  .portfolio-container {
+      width: 960;
+      background-color: white;
+  }
+  
+  .cooking {
+      width: 300px;
+      height: 300px;
   }
