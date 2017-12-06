@@ -1,117 +1,224 @@
-  /********* NAV BAR **************/
-  
-  .navbar-custom {
-      padding: 1em 0 1em 0;
-      border-bottom: 2px solid #DA7817;
-      background-color: #22BDD3;
-  }
-  /****************************   ABOUT ME PAGE  *************************/
-  
-  .about-row-extention {
-      width: 80em;
-  }
-  /*about me container background color*/
-  
-  .homePage-am {
-      background-color: #FFF66C;
-      margin: 3em 0 0 0;
-      border: 2px solid #AFBD16;
-  }
-  /*spongebob image*/
-  
-  #thumbsUp {
-      width: 200px;
-      height: 200px;
-      border-radius: 100px;
-      float: left;
-      margin: 2em 2em 2em 2em;
-  }
-  /*about me text*/
-  
-  .me {
-      color: #DA7817;
-  }
-  /*<hr> line divider*/
-  
-  .am-lineDivider {
-      border: 1px solid #22BDD3;
-  }
-  
-  .textAboutMe {
-      font-size: 1.10em;
-  }
-  
-  #connect {
-      float: right;
-      margin: 3em 0 0 0;
-  }
-  
-  .conn-with-me {
-      background-color: #FFF66C;
-      border: 2px solid #AFBD16;
-      color: #DA7817;
-      margin: 3em 0 0 0;
-      width: 500px;
-  }
-  
-  .cwm-lineDivider {
-      border: 1px solid #22BDD3;
-  }
-  
-  .krabby-patty {
-      width: 400px;
-      height: 300px;
-      border-radius: 150px;
-      margin-left: 3em;
-  }
-  /***************************** FOOTER *********************************/
-  
-  .footer-custom {
-      background-color: #22BDD3;
-      padding: 1em 0 1em 0;
-      border-top: 2px solid #DA7817;
-      margin-top: 1em;
-  }
-  
-  .icon-inline {
-      display: inline-block;
-  }
-  
-  #jobport {
-      font-weight: bold;
-      margin: 0 0 0 1em;
-      color: #DA7817;
-  }
-  
-  .copyright-text {
-      color: #FFF66C;
-      font-weight: bold;
-  }
-  /***************************** CONTACT PAGE *********************************/
-  /*contact form*/
-  
-  .contact-custom {
-      margin-top: 5em;
-  }
-  /***************************** PORTFOLIO PAGE *********************************/
-  
-  .job {
-      margin-top: 2.5em;
-  }
-  
-  .portfolio-container {
-      width: 960;
-      background-color: #727ADB;
-      border: .75em double #22BDD3;
-  }
-  
-  .cooking {
-      width: 300px;
-      height: 300px;
-      margin: 2em 0 2em 0;
-      border: 1em groove #DA7817;
-  }
-  
-  .port-folio {
-      color: #FFF66C;
-  }
+            /********* NAV BAR **************/
+            
+            .navbar-custom {
+                padding: 1em 0 1em 0;
+                border-bottom: 2px solid #DA7817;
+                background-color: #22BDD3;
+            }
+            /****************************   ABOUT ME PAGE  *************************/
+            
+            .about-row-extention {
+                width: 80em;
+            }
+            /*about me container background color*/
+            
+            .homePage-am {
+                float: left;
+                height: 41.35em;
+                background-color: #FFF66C;
+                margin: 3em 0 0 0;
+                border: 2px solid #AFBD16;
+                width: 38em;
+            }
+            /*spongebob image*/
+            
+            #thumbsUp {
+                width: 200px;
+                height: 200px;
+                border-radius: 100px;
+                float: left;
+                margin: 2em 2em 2em 2em;
+            }
+            /*about me text*/
+            
+            .me {
+                color: #DA7817;
+                margin-left: 5em;
+            }
+            /*<hr> line divider*/
+            
+            .am-lineDivider {
+                border: 1px solid #22BDD3;
+            }
+            
+            .textAboutMe {
+                font-size: 1.15em;
+                margin: 0 .5em 0 .5em;
+            }
+            
+            .connect {
+                margin-left: 2.25em;
+            }
+            
+            .conn-with-me {
+                float: right;
+                background-color: #FFF66C;
+                border: 2px solid #AFBD16;
+                color: #DA7817;
+                margin: 3em 0 0 0;
+                width: 32.25em;
+            }
+            
+            .cwm-lineDivider {
+                border: 1px solid #22BDD3;
+            }
+            
+            .ul {
+                margin-left: 1.5em;
+            }
+            /*Sponge Bob with Krabby Patty Image*/
+            
+            .krabby-patty {
+                width: 400px;
+                height: 300px;
+                border-radius: 150px;
+                margin: 4.25em 0 4.20em 3.5em;
+            }
+            /*
+/***************************** FOOTER *********************************/
+            
+            .footer-custom {
+                background-color: #22BDD3;
+                padding: 1em 0 1em 0;
+                border-top: 2px solid #DA7817;
+                margin-top: 1em;
+            }
+            
+            .icon-inline {
+                display: inline-block;
+            }
+            
+            #jobport {
+                font-weight: bold;
+                margin: 0 0 0 1em;
+                color: #DA7817;
+            }
+            
+            .copyright-text {
+                color: #FFF66C;
+                font-weight: bold;
+            }
+            
+            .small {
+                font-size: 1em;
+            }
+            /***************************** CONTACT PAGE *********************************/
+            /*contact form*/
+            
+            .contact-custom {
+                margin-top: 5em;
+            }
+            /***************************** PORTFOLIO PAGE *********************************/
+            
+            .job {
+                margin-top: 2.5em;
+            }
+            
+            .portfolio-container {
+                width: 960;
+                background-color: #727ADB;
+                border: .75em double #22BDD3;
+            }
+            
+            .cooking {
+                width: 300px;
+                height: 300px;
+                margin: 2em 0 2em 0;
+                border: 1em groove #DA7817;
+            }
+            
+            .port-folio {
+                color: #FFF66C;
+            }
+            /********* MEDIA QUERIES *********/
+            
+            @media (max-width:1199px) {
+                /* smartphones, Android phones, landscape iPhone */
+                .about-row-extention {
+                    width: 65em;
+                }
+                .homePage-am {
+                    width: 32em;
+                    margin: 3em 0 0 0;
+                }
+                .me {
+                    margin-left: 3.5em;
+                }
+                .textAboutMe {
+                    font-size: 1.05em;
+                    margin: .4em .4em 0 .4em;
+                }
+            }
+            
+            @media (max-width: 992px) {
+                /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+                .about-row-extention {
+                    width: 40em;
+                }
+                .homePage-am {
+                    width: 32em;
+                    margin: 3em 0 0 5.5em;
+                }
+                .conn-with-me {
+                    margin: 2em 2.4em 6em 0;
+                    width: 32em;
+                }
+                .me {
+                    margin-left: 3.5em;
+                }
+                .textAboutMe {
+                    font-size: 1.05em;
+                    margin: .4em .4em 0 .4em;
+                }
+                .copyright-text {
+                    margin-right: 10em;
+                }
+            }
+            
+            @media (max-width:767px) {
+                /* tablet, landscape iPad, lo-res laptops ands desktops */
+                .homePage-am {
+                    width: 32em;
+                    margin: 3em 0 0 1em;
+                }
+                .conn-with-me {
+                    margin: 2em 7em 6em 0;
+                    width: 32em;
+                }
+            }
+            
+            @media (max-width:479px) {
+                /* big landscape tablets, laptops, and desktops */
+                #thumbsUp {
+                    display: none;
+                }
+                .homePage-am {
+                    width: 25em;
+                    margin: 3em 0 0 1em;
+                }
+                .conn-with-me {
+                    margin: 2em 14em 6em 0;
+                    width: 25em;
+                }
+                .krabby-patty {
+                    display: none;
+                }
+                .connect {
+                    font-size: 2em;
+                }
+                .youtube {
+                    margin-left: 4em;
+                }
+                .copyright-text {
+                    margin-right: 7em;
+                }
+                .me {
+                    margin-left: 2.75em;
+                }
+                #jobport {
+                    display: none;
+                }
+                .small {
+                    margin-left: 5em;
+                }
+            }
